@@ -20,7 +20,7 @@ class ProcessText:
         pattern = re.compile('[\W_]+')
         article = self.split_sentences()
         for sentence in article:
-            sentences.append(word_tokenize(pattern.sub(' ', sentence)))
+            sentences.append(word_tokenize(pattern.sub(' ', sentence.lower())))
         return sentences
     
     def lemmatize(self, words):
