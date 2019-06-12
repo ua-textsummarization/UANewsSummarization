@@ -14,3 +14,10 @@
 
    - uses an encoder (multilayer RNN with LSTM)
    - the decoder is built using a Bahdanau Attention model
+   
+   
+> Additional information:
+>
+> 1. The dataset with the news in Ukrainian was parsed from <http://texty.org.ua/>.
+>
+> 2. The embeddings used were downloaded from [here](<http://lang.org.ua/uk/models/>) -- 300d lowercase news Word2Vec.
