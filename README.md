@@ -14,3 +14,5 @@
 
    - uses an encoder (multilayer RNN with LSTM)
    - the decoder is built using a Bahdanau Attention model
+
+> Note: the embeddings used were downloaded from [here](<http://lang.org.ua/uk/models/>) -- 300d lowercase news Word2Vec.
